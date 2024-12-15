@@ -3,8 +3,9 @@
     "target": "ES6",
     "outDir": "dist",
     "noImplicitAny": true,
+    "module": "CommonJS",
   },
   "include": [
-    "tasks/**/*",
+    "tasks/**/*.ts",
   ]
 }
